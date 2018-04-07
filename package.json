@@ -33,6 +33,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid": "webpack",
     "start": "webpack-dev-server --open"
   },
   "author": "",
