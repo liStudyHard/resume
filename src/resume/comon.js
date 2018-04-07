@@ -31,6 +31,9 @@ class Baner extends React.Component {
       </div>
       )
   }
+  shouldComponentUpdate(nextProps, nextState) {
+    return false; 
+  }
 }
 
 export default PreventingTransitionsExample;

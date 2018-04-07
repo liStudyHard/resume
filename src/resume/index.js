@@ -12,6 +12,9 @@ class Page extends React.Component {
 			</div>
 		)
 	}
+	shouldComponentUpdate(nextProps, nextState) {
+  	return false;	
+  }
 }
 
 ReactDOM.render(<Page />,

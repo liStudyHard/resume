@@ -53,7 +53,7 @@ const simulation = {
 							"itemHobby": "看电视"
 						},
 						{
-							"itemHobby": "大牌"
+							"itemHobby": "打牌"
 						}
 					]
 				}
